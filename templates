@@ -1,0 +1,11 @@
+def generate_airdrop_game():
+    template = """
+    import pygame
+    # एयरड्रॉप गेम का पूरा कोड
+    class AirdropGame:
+        def _init_(self):
+            self.window = pygame.display.set_mode((800,600))
+            # ... (पूरा कोड)
+    """
+    with open("games/airdrop/game.py", "w") as f:
+        f.write(template)
